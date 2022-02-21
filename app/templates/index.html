@@ -23,8 +23,12 @@
             <!-- As a link -->
             <nav class="navbar navbar-dark bg-dark py-3">
                 <div class="container">
-                    <a class="hand navbar-brand">
-                        <img src="{{ url_for('static', filename='images/logo.png') }}" width="75" height="75" class="d-inline-block align-center">Welcome to my Page</a>
+                    <div class="navbar-brand">
+                        <img src="{{ url_for('static', filename='images/logo.png') }}" width="75" height="75"
+                             class="d-inline-block">
+                    </div>
+                    <div class="font25 offwhite margin hand navbar-brand">Welcome to my Page
+                    </div>
                     <ul class="nav nav-pills darkgray">
                         <li class="nav-item nav-pills pill-1 nav-link">
                             <a class="nav-link active" aria-current="page" href="/">Home</a>

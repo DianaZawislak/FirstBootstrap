@@ -63,3 +63,7 @@ font-size: 60px;
  font-family: "Lucida handwriting", "Courier New", monospace;
  margin-left: 300px !important;
 }
+.margin{
+ margin-left: -600px;
+
+}
