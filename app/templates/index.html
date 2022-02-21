@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-<link rel="icon" href="{{ url_for('static', filename='images/favicon-32x32.png') }}"
+<link rel="icon" href="{{ url_for('static', filename='images/logo.png') }}"
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -23,7 +23,8 @@
             <!-- As a link -->
             <nav class="navbar navbar-dark bg-dark py-3">
                 <div class="container">
-                    <a class="navbar-brand hand font25 " href="#">Welcome to my Page</a>
+                    <a class="hand navbar-brand">
+                        <img src="{{ url_for('static', filename='images/logo.png') }}" width="75" height="75" class="d-inline-block align-center">Welcome to my Page</a>
                     <ul class="nav nav-pills darkgray">
                         <li class="nav-item nav-pills pill-1 nav-link">
                             <a class="nav-link active" aria-current="page" href="/">Home</a>
@@ -83,7 +84,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Detroit</h5>
                     <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                    <p class="card-text font18 ">Visit  link  below to discover tourist attractions in Detroit  </p>
+                    <p class="card-text font18 ">Visit link below to discover tourist attractions in Detroit </p>
                     <a href="#" class="card-link darkgrey">https://visitdetroit.com/</a>
 
                 </div>

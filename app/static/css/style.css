@@ -11,7 +11,7 @@ body {
 }
 
 .hand {
- font-family: "Lucida handwriting", "Courier New", monospace;
+ font-family: "lucida handwriting", "Courier New", monospace;
 }
 
 .outset {
@@ -46,4 +46,20 @@ font-size: 18px;
 
 .offwhite {
 font-color: #E0E0E0;
+}
+
+.font25
+font-size: 25px;
+}
+
+
+
+.font60
+font-size: 60px;
+}
+
+.custnav {
+ font-size: 60px;
+ font-family: "Lucida handwriting", "Courier New", monospace;
+ margin-left: 300px !important;
 }
